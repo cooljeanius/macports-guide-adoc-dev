@@ -1,6 +1,3 @@
-[[reference.portgroup.perl]]
-=== PortGroup perl5
-
 PortGroup perl5 allows for efficient porting of perl modules and other
 perl open source software.
 

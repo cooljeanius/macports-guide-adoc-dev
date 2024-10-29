@@ -328,3 +328,17 @@ Registry using the default receipt storage mechanism chosen in
 [[internals.tests]]
 === Tests
 include::tests.adoc[]
+
+=== Real Port Phases
+* org.macports.main - initialization of the MacPorts system, parsing of the Portfile.
+* org.macports.unarchive - if "archivemode" is enabled, binary archives of the requested port are searched for and used if found, skipping all the stages up to "destroot".
+* org.macports.fetch - fetching of the sources.
+* org.macports.checksum - validation of the fetched sources.
+* org.macports.extract - extraction of the sources.
+* org.macports.patch - application of listed patches.
+* org.macports.configure - configuration of the sources.
+* org.macports.build - build stage, where the product gets built.
+* org.macports.destroot - sandbox installation of the product.
+* org.macports.archive - if "archivemode" is enabled, a binary archive is created off of the products installed into the sandbox.
+* org.macports.install - built product is moved from the sandbox into the depot installation location underneath ${prefix}/var/macports/software
+* org.macports.activate - installed product is "activated" from the depot location into ${prefix} for regular usage.

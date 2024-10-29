@@ -1,6 +1,3 @@
-[[reference.portgroup.gnustep]]
-=== PortGroup gnustep
-
 PortGroup gnustep allows for efficient porting of GNUstep-based open
 source software using the GNU objective-C runtime that defines options
 for the configuration, build, and destroot phases, and also defines some

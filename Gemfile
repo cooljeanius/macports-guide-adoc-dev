@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "asciidoctor"
-gem "asciidoctor-diagram"
-gem "rake"
+gem 'rubocop', require: false
+
+gem 'asciidoctor'
+gem 'asciidoctor-diagram'
+gem 'rake'

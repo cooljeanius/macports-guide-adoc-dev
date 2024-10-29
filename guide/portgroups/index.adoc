@@ -1,0 +1,215 @@
+[[reference.portgroup]]
+== PortGroups
+
+[[reference.portgroup.intro]]
+=== Introduction
+
+PortGroups are simply include files for portfiles. They can define as
+much or as little as a portgroup author feels is necessary to provide a
+set of definitions or behaviors common to a group of portfiles, in order
+that those portfiles can be expressed as simply as possible with minimum
+redundancy.
+
+See the following folder for PortGroup definitions:
+
+`${prefix}/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/`
+
+or if you prefer directly in
+https://github.com/macports/macports-ports/tree/master/_resources/port1.0/group[GitHub]
+
+The requirements of a minimum portfile using a portgroup varies by
+portgroup. The sections below devoted to each portgroup (or, for
+portgroups not documented there yet, the comments in the header of the
+portgroup file itself) should provide guidance on how each portgroup is
+used. Prospective MacPorts developers are also encouraged to examine
+existing portfiles that use these portgroups.
+
+=== active_variants
+
+=== apache2
+
+=== app
+
+=== aspelldict
+
+=== bazel
+
+=== bitbucket
+
+=== boost
+
+=== cargo
+
+=== cargo_fetch
+
+=== cgit
+
+=== clang_dependency
+
+=== cmake
+
+=== codeberg
+
+=== common_lisp
+
+=== compiler_blacklist_versions
+
+=== compiler_wrapper
+
+=== compilers
+
+=== conflicts_build
+
+=== crossbinutils
+
+=== crossgcc
+
+=== crossgdb
+
+=== debug
+
+=== deprecated
+
+=== developerversion
+
+=== elisp
+
+=== fortran
+
+=== fuse
+
+=== gitea
+
+[[reference.portgroup.github]]
+=== github
+include::groups/github.adoc[]
+
+[[reference.portgroup.gitlab]]
+=== gitlab
+include::groups/gitlab.adoc[]
+
+=== gnu_info
+
+=== gnulib
+
+=== gnuradio
+
+[[reference.portgroup.gnustep]]
+=== gnustep
+include::groups/gnustep.adoc[]
+
+=== gobject_introspection
+
+[[reference.portgroup.golang]]
+=== golang
+include::groups/golang.adoc[]
+
+=== gpg_verify
+
+=== haskell_cabal
+
+=== haskell_stack
+
+=== hunspelldict
+
+=== janet
+
+[[reference.portgroup.java]]
+=== PortGroup java
+include::groups/java.adoc[]
+
+=== kde4
+
+=== legacysupport
+
+=== linear_algebra
+
+=== love
+
+=== lua
+
+=== luarocks_org
+
+=== luarocks
+
+=== makefile
+
+=== meson
+
+=== mpi
+
+=== mpiutil
+
+=== muniversal
+
+=== notabug
+
+=== npm
+
+=== obsolete
+
+=== ocaml
+
+=== octave
+
+[[reference.portgroup.perl]]
+=== perl5
+include::groups/perl.adoc[]
+
+=== php
+
+=== pure
+
+[[reference.portgroup.python]]
+=== python
+include::groups/python.adoc[]
+
+=== qmake
+
+=== qmake 5
+
+=== qt4
+
+=== qt5
+==== qt5_variables
+==== qt5_version_info
+
+=== qt6
+==== qt6_info
+
+=== R
+
+[[reference.portgroup.ruby]]
+=== ruby
+include::groups/ruby.adoc[]
+
+=== rust_build
+
+=== rust
+
+=== select
+
+=== sourcehut
+
+=== stub
+
+=== texlive
+
+=== tree_sitter
+
+=== waf
+
+=== wxWidgets
+
+=== x11font
+
+=== xcode_workaround
+
+=== xcode
+include::groups/xcode.adoc[]
+
+=== xcodeversion
+
+=== xmlcatalog
+
+=== yelp

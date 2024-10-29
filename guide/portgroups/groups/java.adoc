@@ -1,6 +1,3 @@
-[[reference.portgroup.java]]
-=== PortGroup java
-
 PortGroup java is useful for Java packages.
 
 [[reference.portgroup.java.keywords]]

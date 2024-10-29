@@ -1,6 +1,3 @@
-[[reference.portgroup.python]]
-=== PortGroup python
-
 PortGroup python allows for efficient porting of python-based open
 source software.
 

@@ -1,0 +1,41 @@
+The `gitlab` portgroup allows for efficient porting of software hosted
+on GitLab.
+
+[[reference.portgroup.gitlab.description]]
+==== Description
+
+....
+PortGroup           gitlab 1.0
+gitlab.setup        author project version [tag_prefix] [tag_suffix]
+....
+
+==== Options
+Options that are available are the following, and are set to the defaults:
+
+gitlab.instance::
+  A string pointing to the GitLab instance to use.
+  * Type: optional
+  * Default: https://gitlab.com
+  * Example:
+....
+  gitlab.instance https://gitlab.com
+....
+
+
+// ....
+// gitlab.instance {https://gitlab.com}
+// gitlab.homepage {${gitlab.instance}/${gitlab.author}/${gitlab.project}}
+// gitlab.master_sites {${gitlab.homepage}/-/archive/${git.branch}}
+// gitlab.livecheck.branch master
+// gitlab.livecheck.regex {(\[0-9]\[^<]+)}
+// ....
+
+==== Defaults
+By default, the `gitlab` portgroup sets `distname` to:
+
+....
+distname            ${gitlab.project}-${gitlab.version}
+....
+
+
+Read the source: mp:group[gitlab-1.0]

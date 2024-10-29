@@ -1,6 +1,3 @@
-[[reference.portgroup.ruby]]
-=== PortGroup ruby
-
 PortGroup ruby allows for efficient porting of ruby-based open source
 software.
 

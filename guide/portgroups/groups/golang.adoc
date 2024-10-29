@@ -1,6 +1,3 @@
-[[reference.portgroup.golang]]
-=== PortGroup golang
-
 The `golang` PortGroup allows for efficient porting of Go-based open
 source software.
 
