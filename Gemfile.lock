@@ -2,14 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     asciidoctor (2.0.23)
-    asciidoctor-diagram (2.3.1)
+    asciidoctor-diagram (2.3.2)
       asciidoctor (>= 1.5.7, < 3.x)
       asciidoctor-diagram-ditaamini (~> 1.0)
       asciidoctor-diagram-plantuml (~> 1.2021)
       rexml
     asciidoctor-diagram-batik (1.17)
     asciidoctor-diagram-ditaamini (1.0.3)
-    asciidoctor-diagram-plantuml (1.2024.6)
+    asciidoctor-diagram-plantuml (1.2025.2)
       asciidoctor-diagram-batik (~> 1.17)
     ast (2.4.2)
     json (2.9.1)
@@ -22,7 +22,7 @@ GEM
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.10.0)
-    rexml (3.3.9)
+    rexml (3.4.1)
     rubocop (1.71.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
