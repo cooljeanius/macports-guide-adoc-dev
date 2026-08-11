@@ -49,6 +49,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - language: actions
+            build-mode: none
           - language: ruby
             build-mode: none
             # CodeQL supports the following values keywords for 'language':
