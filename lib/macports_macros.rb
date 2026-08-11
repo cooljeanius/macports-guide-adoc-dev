@@ -3,6 +3,8 @@
 
 require 'asciidoctor'
 
+# MacPorts Inline Macros
+# implements mp:group[somegroup-1.0]
 class MacPortsInlineMacro < Asciidoctor::Extensions::InlineMacroProcessor
   include Asciidoctor::Logging
   use_dsl
